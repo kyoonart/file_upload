@@ -130,7 +130,7 @@ export default {
             data: e.target.response,
           });
         };
-        // 暴露当前 xhr 给外部
+        // 保存所有的xhr对象
         requestList?.push(xhr);
       });
     },
