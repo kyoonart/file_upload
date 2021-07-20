@@ -52,7 +52,7 @@
 
 <script>
 // 每个切片大小
-const SIZE = 0.01 * 1024 * 1024;
+const SIZE = 10 * 1024 * 1024;
 const Status = {
   wait: "wait",
   pause: "pause",
